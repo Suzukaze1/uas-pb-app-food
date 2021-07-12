@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:padding="16dp"
+    android:id="@+id/container1HA">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgThumb02"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:fontFamily="@font/nexa_bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Pizza Biasa"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:id="@+id/konvensionall"
+        android:layout_toEndOf="@+id/imgThumb02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_below="@+id/imgThumb02"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>

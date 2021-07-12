@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.CircularRevealRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="10dp"
+    android:padding="16dp"
+    android:id="@+id/container1HA">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgThumb021"
+        android:scaleType="fitXY"
+        android:layout_width="80dp"
+        android:layout_height="80dp" />
+
+    <TextView
+        android:fontFamily="@font/nexa_bold"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:text="Burger Biasa"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:id="@+id/konvensionall1"
+        android:layout_toEndOf="@+id/imgThumb021"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:textColor="#ffffff"
+        android:fontFamily="@font/nexa_bold"
+        android:id="@+id/btnEdit03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/konvensionall1"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@id/imgThumb021"
+        android:text="Edit" />
+
+    <Button
+        android:textColor="#ffffff"
+        android:fontFamily="@font/nexa_bold"
+        android:id="@+id/btnNonAktif03"
+        android:text="Delete"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/btnEdit03"
+        android:layout_below="@id/konvensionall1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</com.google.android.material.circularreveal.CircularRevealRelativeLayout>
